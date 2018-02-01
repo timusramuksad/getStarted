@@ -95,7 +95,8 @@ class EndExamViewControllerClass: UIViewController{
     override func viewWillAppear(_ animated: Bool) {
         
         let postData = self.createPOSTData()
-        self.postTestData(postDataBody: postData)
+//        self.postTestData(postDataBody: postData)
+//        MARK: Disable Postresults for now - to integrate later with a new server
     }
     func createPOSTData() -> Data{
         var assessmentIDs = assessmentIDArray
