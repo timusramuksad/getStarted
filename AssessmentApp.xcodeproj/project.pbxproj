@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534E28081EE524C2008E7170 /* QuestionPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534E28071EE524C2008E7170 /* QuestionPageViewController.storyboard */; };
+		534E280A1EE54A92008E7170 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 534E28091EE54A92008E7170 /* Podfile */; };
+		534E282A1EE59466008E7170 /* EndExamViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534E28291EE59466008E7170 /* EndExamViewController.storyboard */; };
+		534E282C1EE5A2EA008E7170 /* EndExamViewControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534E282B1EE5A2EA008E7170 /* EndExamViewControllerClass.swift */; };
+		5358DCE21EE40919008FB24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DCE11EE40919008FB24A /* AppDelegate.swift */; };
+		5358DCE41EE40919008FB24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DCE31EE40919008FB24A /* ViewController.swift */; };
+		5358DCE71EE40919008FB24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358DCE51EE40919008FB24A /* Main.storyboard */; };
+		5358DCEA1EE40919008FB24A /* AssessmentApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5358DCE81EE40919008FB24A /* AssessmentApp.xcdatamodeld */; };
+		5358DCEC1EE40919008FB24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358DCEB1EE40919008FB24A /* Assets.xcassets */; };
+		5358DCEF1EE40919008FB24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358DCED1EE40919008FB24A /* LaunchScreen.storyboard */; };
+		5358DCF81EE40C67008FB24A /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DCF61EE40C67008FB24A /* QuestionPageViewController.swift */; };
+		5358DD021EE42D72008FB24A /* unchecked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 5358DD011EE42D72008FB24A /* unchecked_checkbox.png */; };
+		5358DD041EE42D76008FB24A /* checked-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 5358DD031EE42D76008FB24A /* checked-box.png */; };
+		5358DD061EE43885008FB24A /* CommonHelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DD051EE43885008FB24A /* CommonHelperClass.swift */; };
+		5358DD081EE4390E008FB24A /* ProgressViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DD071EE4390E008FB24A /* ProgressViewClass.swift */; };
+		5358DD0C1EE4579F008FB24A /* XMLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DD0B1EE4579F008FB24A /* XMLData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		534E28281EE54F7A008E7170 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		534E28071EE524C2008E7170 /* QuestionPageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuestionPageViewController.storyboard; sourceTree = "<group>"; };
+		534E28091EE54A92008E7170 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		534E28291EE59466008E7170 /* EndExamViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EndExamViewController.storyboard; sourceTree = "<group>"; };
+		534E282B1EE5A2EA008E7170 /* EndExamViewControllerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndExamViewControllerClass.swift; sourceTree = "<group>"; };
+		5358DCDE1EE40919008FB24A /* AssessmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssessmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358DCE11EE40919008FB24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5358DCE31EE40919008FB24A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5358DCE61EE40919008FB24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5358DCE91EE40919008FB24A /* AssessmentApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssessmentApp.xcdatamodel; sourceTree = "<group>"; };
+		5358DCEB1EE40919008FB24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5358DCEE1EE40919008FB24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5358DCF01EE40919008FB24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358DCF61EE40C67008FB24A /* QuestionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		5358DD011EE42D72008FB24A /* unchecked_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked_checkbox.png; sourceTree = "<group>"; };
+		5358DD031EE42D76008FB24A /* checked-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked-box.png"; sourceTree = "<group>"; };
+		5358DD051EE43885008FB24A /* CommonHelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHelperClass.swift; sourceTree = "<group>"; };
+		5358DD071EE4390E008FB24A /* ProgressViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewClass.swift; sourceTree = "<group>"; };
+		5358DD0B1EE4579F008FB24A /* XMLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLData.swift; sourceTree = "<group>"; };
+		83950037484A886682536FD2 /* Pods-AssessmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		F49A231342120ACBC8E0AD31 /* Pods-AssessmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5358DCDB1EE40919008FB24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB5B52B6A32DE23C920A467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49A231342120ACBC8E0AD31 /* Pods-AssessmentApp.debug.xcconfig */,
+				83950037484A886682536FD2 /* Pods-AssessmentApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5358DCD51EE40919008FB24A = {
+			isa = PBXGroup;
+			children = (
+				5358DCE01EE40919008FB24A /* AssessmentApp */,
+				5358DCDF1EE40919008FB24A /* Products */,
+				3EB5B52B6A32DE23C920A467 /* Pods */,
+				ED5976560965ABF0DBFB3717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5358DCDF1EE40919008FB24A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5358DCDE1EE40919008FB24A /* AssessmentApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5358DCE01EE40919008FB24A /* AssessmentApp */ = {
+			isa = PBXGroup;
+			children = (
+				5358DD001EE42D64008FB24A /* Images */,
+				5358DCE11EE40919008FB24A /* AppDelegate.swift */,
+				5358DD071EE4390E008FB24A /* ProgressViewClass.swift */,
+				5358DCE31EE40919008FB24A /* ViewController.swift */,
+				5358DD0B1EE4579F008FB24A /* XMLData.swift */,
+				5358DD051EE43885008FB24A /* CommonHelperClass.swift */,
+				534E28071EE524C2008E7170 /* QuestionPageViewController.storyboard */,
+				5358DCF61EE40C67008FB24A /* QuestionPageViewController.swift */,
+				534E28291EE59466008E7170 /* EndExamViewController.storyboard */,
+				534E282B1EE5A2EA008E7170 /* EndExamViewControllerClass.swift */,
+				5358DCE51EE40919008FB24A /* Main.storyboard */,
+				5358DCEB1EE40919008FB24A /* Assets.xcassets */,
+				5358DCED1EE40919008FB24A /* LaunchScreen.storyboard */,
+				5358DCF01EE40919008FB24A /* Info.plist */,
+				5358DCE81EE40919008FB24A /* AssessmentApp.xcdatamodeld */,
+				534E28091EE54A92008E7170 /* Podfile */,
+			);
+			path = AssessmentApp;
+			sourceTree = "<group>";
+		};
+		5358DD001EE42D64008FB24A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5358DD011EE42D72008FB24A /* unchecked_checkbox.png */,
+				5358DD031EE42D76008FB24A /* checked-box.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		ED5976560965ABF0DBFB3717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5358DCDD1EE40919008FB24A /* AssessmentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358DCF31EE40919008FB24A /* Build configuration list for PBXNativeTarget "AssessmentApp" */;
+			buildPhases = (
+				7C092A6C259057F5C6B1B71C /* [CP] Check Pods Manifest.lock */,
+				5358DCDA1EE40919008FB24A /* Sources */,
+				5358DCDB1EE40919008FB24A /* Frameworks */,
+				5358DCDC1EE40919008FB24A /* Resources */,
+				9C8CEFC6C71481DD8D69CAED /* [CP] Embed Pods Frameworks */,
+				FB9C50ACA524492610336A98 /* [CP] Copy Pods Resources */,
+				534E28281EE54F7A008E7170 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssessmentApp;
+			productName = AssessmentApp;
+			productReference = 5358DCDE1EE40919008FB24A /* AssessmentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5358DCD61EE40919008FB24A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sumit K Das";
+				TargetAttributes = {
+					5358DCDD1EE40919008FB24A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5358DCD91EE40919008FB24A /* Build configuration list for PBXProject "AssessmentApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5358DCD51EE40919008FB24A;
+			productRefGroup = 5358DCDF1EE40919008FB24A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5358DCDD1EE40919008FB24A /* AssessmentApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5358DCDC1EE40919008FB24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534E282A1EE59466008E7170 /* EndExamViewController.storyboard in Resources */,
+				5358DD021EE42D72008FB24A /* unchecked_checkbox.png in Resources */,
+				5358DCEF1EE40919008FB24A /* LaunchScreen.storyboard in Resources */,
+				5358DCEC1EE40919008FB24A /* Assets.xcassets in Resources */,
+				534E28081EE524C2008E7170 /* QuestionPageViewController.storyboard in Resources */,
+				534E280A1EE54A92008E7170 /* Podfile in Resources */,
+				5358DCE71EE40919008FB24A /* Main.storyboard in Resources */,
+				5358DD041EE42D76008FB24A /* checked-box.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C092A6C259057F5C6B1B71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8CEFC6C71481DD8D69CAED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9C50ACA524492610336A98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5358DCDA1EE40919008FB24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358DD0C1EE4579F008FB24A /* XMLData.swift in Sources */,
+				5358DCE41EE40919008FB24A /* ViewController.swift in Sources */,
+				5358DCEA1EE40919008FB24A /* AssessmentApp.xcdatamodeld in Sources */,
+				5358DD061EE43885008FB24A /* CommonHelperClass.swift in Sources */,
+				5358DCF81EE40C67008FB24A /* QuestionPageViewController.swift in Sources */,
+				5358DCE21EE40919008FB24A /* AppDelegate.swift in Sources */,
+				5358DD081EE4390E008FB24A /* ProgressViewClass.swift in Sources */,
+				534E282C1EE5A2EA008E7170 /* EndExamViewControllerClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5358DCE51EE40919008FB24A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358DCE61EE40919008FB24A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5358DCED1EE40919008FB24A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358DCEE1EE40919008FB24A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5358DCF11EE40919008FB24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5358DCF21EE40919008FB24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5358DCF41EE40919008FB24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49A231342120ACBC8E0AD31 /* Pods-AssessmentApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AssessmentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skd.AssessmentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5358DCF51EE40919008FB24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83950037484A886682536FD2 /* Pods-AssessmentApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AssessmentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skd.AssessmentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5358DCD91EE40919008FB24A /* Build configuration list for PBXProject "AssessmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358DCF11EE40919008FB24A /* Debug */,
+				5358DCF21EE40919008FB24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5358DCF31EE40919008FB24A /* Build configuration list for PBXNativeTarget "AssessmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358DCF41EE40919008FB24A /* Debug */,
+				5358DCF51EE40919008FB24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5358DCE81EE40919008FB24A /* AssessmentApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5358DCE91EE40919008FB24A /* AssessmentApp.xcdatamodel */,
+			);
+			currentVersion = 5358DCE91EE40919008FB24A /* AssessmentApp.xcdatamodel */;
+			path = AssessmentApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5358DCD61EE40919008FB24A /* Project object */;
+}
